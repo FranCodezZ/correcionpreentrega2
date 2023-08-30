@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;800;900;1000&display=swap');
+
+*   {margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;}
+
+.titulo {
+    background-color: orange;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.titulo h1 {
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    
+}
+
+.menu {
+    font-size: large;
+}
+header {
+    display: flex;
+
+}
+
+body{
+    background-image: url(./../img/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.descripcion {
+    width: 300px;
+    height: 600px;
+    text-align: center;
+    text-decoration:solid;
+    color: white;
+    padding: 60px;
+    border-radius: 40px;
+    background-color: orange;
+    margin-left: 50px;
+
+}
+
+.subtitulo {
+    font-size: 30px;
+}
+
+.img-derecha {
+    width: 350px;
+    height: 400px;
+    padding: 40px;
+    border-radius: 40px;
+    margin-top: 100px;
+    background-color: orange;
+
+}   
+
+
+.tituloimg {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    background-color: orange;
+    margin-bottom: 20px;
+}
+
+.vermas {
+    margin-top: 40px;
+
+}
+.vermas button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: orange;
+    font-size: 20px;
+}
+
+main {
+    margin-top: 50px;
+    padding: 40px;
+    display: inline-flex;
+    gap: 700px;
+    
+}
+
+.boton button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: orange;
+    font-size: 20px;
+}
+
+@media screen and (max-width:480px){
+    .titulo h1 {
+        padding: 0px;
+    }
+    
+    .titulo {
+        padding: 0px;
+    }
+
+}

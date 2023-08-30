@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;800;900;1000&display=swap');
+
+
+*   {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;}
+
+.titulo {
+    background-color: orange;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.titulo h1 {
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    
+}
+
+.menu {
+    font-size: large;
+}
+header {
+    display: flex;
+
+}
+
+body{
+    background-image: url(./../img/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 900px;
+
+}
+
+.logear {
+    display: flex;
+    gap: 50px;
+    
+}
+
+.log  {
+    text-align: center;
+    text-decoration:solid;
+    color: black;
+    height: 100px;
+    background-color: orange;
+    width: 600PX;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+
+}
+
+.log b {
+    font-size: large;
+}
+
+.pie {
+    text-align: center;
+    text-decoration:solid;
+    color: black;
+    height: 100px;
+    background-color: orange;
+    width: 400px;
+    display: flex;
+    padding-top: 20px;
+    margin-top: 300px;
+
+}
+
+main {
+    margin-top: 20px;
+    padding: 40px;
+}
+
+@media screen and (max-width:480px){
+    .titulo h1 {
+        padding: 0px;
+    }
+    
+    .titulo {
+        padding: 0px;
+    }
+    
+    .log {
+        height: auto;
+    }
+}

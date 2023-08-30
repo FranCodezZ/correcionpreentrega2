@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;800;900;1000&display=swap');
+
+
+*{margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Nunito', sans-serif;}
+
+.titulo {
+background-color: orange;
+padding-top: 10px;
+width: 100%;
+    }
+    
+.titulo h1 {
+color: white;
+font-size: 30px;
+padding: 20px;   
+}
+    
+.menu {
+font-size: large;
+}
+header {
+display: flex;
+    
+}
+    
+body{
+background-image: url(./../img/fondo.jpg);
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+height: auto;
+}
+
+table {
+background-color: white;
+margin-left: 70px;
+}
+
+
+.box {
+background-color: orange;
+background-size: 60px;
+text-align: center;
+height: 220px;
+width: 400px;
+padding-top: 30px;
+margin-left: 110px;
+}
+
+.institucion {
+width: 400px;
+height: 500px;
+background-color: orange; 
+text-align: center;
+margin-left: 110px;
+padding-top: 40px;
+}
+
+.agregar{
+    background-color: orange;
+    color: black;
+    height: 200px;
+    width: 400px;
+    margin-left: 110px;
+    padding-top: 80px;
+    text-align: center;
+
+}
+
+
+@media screen and (max-width: 480px)
+    {
+    .box {margin-left: 40px;}
+    .institucion {margin-left: 40px;}
+    .agregar {margin-left: 40px;}
+    
+
+
+    .titulo {
+        width: 600px;
+        text-align: left;}
+       
+    .subtitulo{
+        width: 600px;
+    }
+    }
