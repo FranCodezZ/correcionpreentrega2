@@ -1,0 +1,21 @@
+header {
+    
+    display: flex;
+
+    .titulo {
+        
+        background-color: orange;
+        padding-top: 10px;
+        width: 100%;
+    }
+
+    .titulo h1 {
+        color: white;
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    .menu {
+        font-size: large;
+    }
+}

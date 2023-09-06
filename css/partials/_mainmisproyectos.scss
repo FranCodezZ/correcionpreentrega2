@@ -1,0 +1,45 @@
+.box {
+    background-color: orange;
+    background-size: 60px;
+    text-align: center;
+    height: 250px;
+    width: 400px;
+    padding-top: 20px;
+    margin-left: 110px;
+    
+    h4{
+        padding-bottom: 40px;
+    }
+
+}
+
+.proyecto {
+    padding-top: 40px;
+    width: 400px;
+    height: 350px;
+    background-color: orange; 
+    text-align: center;
+    margin-left: 110px;
+}
+
+.nuevop {
+    background-color: orange;
+    color: black;
+    height: 250px;
+    width: 400px;
+    margin-left: 110px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 300px;
+    padding-left: 100px;
+
+}
+
+.caja {
+    border: 1px solid black;
+}
