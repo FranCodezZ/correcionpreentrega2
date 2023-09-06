@@ -23,6 +23,21 @@ header .menu {
   font-size: large;
 }
 
+.swing-in-top-fwd {
+  animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+}
+@keyframes swing-in-top-fwd {
+  0% {
+    transform: rotateX(-100deg);
+    transform-origin: top;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0deg);
+    transform-origin: top;
+    opacity: 1;
+  }
+}
 body {
   background-image: url(./../img/fondo.jpg);
   background-position: center;
@@ -30,45 +45,92 @@ body {
   background-attachment: fixed;
 }
 
-.box {
+main {
+  padding: 40px;
+  display: inline-flex;
+  gap: 500px;
+}
+main .box {
   background-color: orange;
   background-size: 60px;
   text-align: center;
-  height: 250px;
+  height: 300px;
   width: 400px;
   padding-top: 20px;
   margin-left: 110px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  margin-bottom: 400px;
 }
-.box h4 {
+main .box h4 {
   padding-bottom: 40px;
 }
-
-.proyecto {
-  padding-top: 40px;
+main .proyecto {
   width: 400px;
-  height: 350px;
+  height: 500px;
   background-color: orange;
   text-align: center;
   margin-left: 110px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
-
-.nuevop {
-  background-color: orange;
-  color: black;
-  height: 250px;
-  width: 400px;
-  margin-left: 110px;
-  padding-top: 40px;
-  text-align: center;
+main .proyecto .boton4 {
+  margin: 10px;
 }
-
-.contenedor {
+main .proyecto h2 {
+  margin-top: 20px;
+}
+main .contenedor {
   display: grid;
   grid-template-columns: 1fr;
   width: 300px;
   padding-left: 100px;
 }
-
-.caja {
+main .caja {
   border: 1px solid black;
+}
+
+.slide-in-left {
+  animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.slide-in-right {
+  animation: slide-in-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.pie {
+  display: flex;
+  padding-block: 20px;
+}
+.pie .iconos {
+  display: flex;
+  background-color: orange;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+}
+.pie .iconos .fab {
+  padding: 1rem;
+}
+
+.fa-facebook {
+  background-color: blue;
 }/*# sourceMappingURL=estilomisproyectos.css.map */

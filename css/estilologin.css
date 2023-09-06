@@ -23,6 +23,21 @@ header .menu {
   font-size: large;
 }
 
+.swing-in-top-fwd {
+  animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+}
+@keyframes swing-in-top-fwd {
+  0% {
+    transform: rotateX(-100deg);
+    transform-origin: top;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0deg);
+    transform-origin: top;
+    opacity: 1;
+  }
+}
 body {
   background-image: url(./../img/fondo.jpg);
   background-position: center;
@@ -50,11 +65,25 @@ main .logear .log {
   margin-left: 20px;
   padding-bottom: 10px;
   border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 main .logear .log b {
   font-size: large;
 }
 
+.slide-in-fwd-center {
+  animation: slide-in-fwd-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@keyframes slide-in-fwd-center {
+  0% {
+    transform: translateZ(-1400px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
 .pie {
   text-align: center;
   -webkit-text-decoration: solid;
@@ -66,4 +95,19 @@ main .logear .log b {
   display: flex;
   padding-top: 20px;
   margin-top: 300px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.slide-in-left {
+  animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }/*# sourceMappingURL=estilologin.css.map */

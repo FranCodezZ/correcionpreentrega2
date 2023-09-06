@@ -1,0 +1,24 @@
+.pie{
+    display: flex;
+    padding-block: 20px;
+
+    .iconos {
+        display: flex;
+        background-color: orange;
+        align-items: center;
+        gap: 1rem;
+        color: white;
+
+        .fab {
+            padding: 1rem;
+        }
+    }
+}
+
+$redes: (
+    facebook: blue,
+    );
+
+.fa-facebook{
+    background-color: blue;
+}

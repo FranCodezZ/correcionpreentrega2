@@ -23,6 +23,21 @@ header .menu {
   font-size: large;
 }
 
+.swing-in-top-fwd {
+  animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+}
+@keyframes swing-in-top-fwd {
+  0% {
+    transform: rotateX(-100deg);
+    transform-origin: top;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0deg);
+    transform-origin: top;
+    opacity: 1;
+  }
+}
 body {
   background-image: url(./../img/fondo.jpg);
   background-position: center;
@@ -31,10 +46,9 @@ body {
 }
 
 main {
-  margin-top: 50px;
   padding: 40px;
   display: inline-flex;
-  gap: 700px;
+  gap: 600px;
 }
 main .descripcion {
   width: 300px;
@@ -47,6 +61,8 @@ main .descripcion {
   border-radius: 40px;
   background-color: orange;
   margin-left: 50px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  margin-bottom: 100px;
 }
 main .descripcion .subtitulo {
   font-size: 30px;
@@ -62,11 +78,12 @@ main .descripcion .vermas button {
 }
 main .img-derecha {
   width: 350px;
-  height: 400px;
+  height: 500px;
   padding: 40px;
   border-radius: 40px;
   margin-top: 100px;
   background-color: orange;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 main .img-derecha .tituloimg {
   text-align: center;
@@ -80,4 +97,52 @@ main .img-derecha .boton button {
   border-radius: 10px;
   background-color: orange;
   font-size: 20px;
+}
+main .img-derecha .imagen {
+  padding-left: 35px;
+}
+
+.slide-in-left {
+  animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.slide-in-right {
+  animation: slide-in-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.pie {
+  display: flex;
+  padding-block: 20px;
+}
+.pie .iconos {
+  display: flex;
+  background-color: orange;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+}
+.pie .iconos .fab {
+  padding: 1rem;
+}
+
+.fa-facebook {
+  background-color: blue;
 }/*# sourceMappingURL=estilo.css.map */

@@ -23,6 +23,21 @@ header .menu {
   font-size: large;
 }
 
+.swing-in-top-fwd {
+  animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+}
+@keyframes swing-in-top-fwd {
+  0% {
+    transform: rotateX(-100deg);
+    transform-origin: top;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0deg);
+    transform-origin: top;
+    opacity: 1;
+  }
+}
 body {
   background-image: url(./../img/fondo.jpg);
   background-position: center;
@@ -30,26 +45,82 @@ body {
   background-attachment: fixed;
 }
 
-.contactos {
+main {
+  padding: 40px;
+  display: inline-flex;
+  gap: 500px;
+}
+main .contactos {
   background-color: orange;
   background-size: 80px;
   text-align: center;
-  height: 350px;
+  height: 400px;
   width: 400px;
   padding-top: 10px;
   margin-left: 110px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  margin-bottom: 300px;
 }
-
-.contactoselect {
+main .contactoselect {
   background-color: orange;
   background-size: 80px;
   text-align: center;
-  height: 500px;
+  height: 600px;
   width: 400px;
   margin-left: 110px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+main h3 {
+  text-align: center;
+  padding: 10px;
+}
+main .descripcion {
+  margin-top: 10px;
 }
 
-h3 {
-  text-align: left;
-  padding: 10px;
+.slide-in-left {
+  animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.slide-in-right {
+  animation: slide-in-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.pie {
+  display: flex;
+  padding-block: 20px;
+}
+.pie .iconos {
+  display: flex;
+  background-color: orange;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+}
+.pie .iconos .fab {
+  padding: 1rem;
+}
+
+.fa-facebook {
+  background-color: blue;
 }/*# sourceMappingURL=estilocontactos.css.map */
