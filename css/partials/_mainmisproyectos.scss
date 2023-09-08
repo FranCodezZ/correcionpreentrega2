@@ -1,23 +1,41 @@
 main {
     padding: 40px;
+    padding-top: 100px;
     display: inline-flex;
-    gap: 500px;
+    gap: 400px;
+
+    .boton2{
+        margin: 10px;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: $secondarycolor;
+        font-size: 15px;
+        margin-top: 20px;
+
+    }
 
     .box {
-        background-color: orange;
-        background-size: 60px;
+        background-color: $maincolor;
         text-align: center;
-        height: 300px;
+        height: 500px;
         width: 400px;
         padding-top: 20px;
-        margin-left: 110px;
+        margin-left: 300px;
         border-radius: 40px;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-        margin-bottom: 400px;
+        box-shadow: rgba(0, 0, 0, 0.56) 70px 70px 0px 0px;
         
         
         h4{
-            padding-bottom: 40px;
+            margin-top: 30px;
+            margin-bottom: 50px;
+            color: white;
+        }
+
+        .contenedor {
+            color: white;
+            font-size: larger;
+            margin-bottom: 20px;
+     
         }
     
     }
@@ -25,15 +43,13 @@ main {
     .proyecto {
 
         width: 400px;
-        height: 500px;
-        background-color: orange; 
+        height: 450px;
+        background-color: $maincolor; 
         text-align: center;
         margin-left: 110px;
+        margin-top: 50px;
         border-radius: 40px;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-        .boton4{
-            margin: 10px;
-        }
+        box-shadow: rgba(0, 0, 0, 0.56) 70px 70px 0px 0px;
 
         h2 {margin-top: 20px;}
     }

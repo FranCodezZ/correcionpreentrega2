@@ -1,65 +1,90 @@
-main {
-    padding: 40px;
-    display: inline-flex;
-    gap: 500px;
+
+main{
+    padding-bottom: 150px;
+}
+
+.cabeza {
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+}
+
+
+.cajas {
+    display: flex;
+    gap: 100px;
+
+    h2{ margin: 20px;}
+
+    p {
+        margin-top: 30px;
+    }
+    .boton2 {
+        background-color: $secondarycolor;
+        border-radius: 40px;
+        margin-bottom: 20px;
+        margin: 10px;
+        padding: 10px;
+        color: black;
+    
+    }
 
     .box {
-        background-color: orange;
-        background-size: 60px;
+        background-color: $maincolor;
         text-align: center;
-        height: 300px;
+        height: auto;
         width: 400px;
-        padding-top: 30px;
-        margin-left: 110px;
         border-radius: 40px;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-    h4 {
-        margin-bottom: 20px;
-    }
-    
-    table {
-        background-color: white;
-        margin-left: 60px;
-        margin-bottom: 10px;
-        margin-top: 10px;
-        width: 280px;
-        }
+        box-shadow: rgba(0, 0, 0, 0.56) 70px 70px 0px 0px;
+        margin-top: 100px;
+        margin-left: 100px;
+
         
-    select {
-        margin-bottom: 10px;
+
     }
-        }
-        
-    .institucion {
+   
+    .box1 {
         width: 400px;
-        height: 700px;
-        background-color: orange; 
+        height: auto;
+        background-color: $maincolor; 
         text-align: center;
-        margin-left: 110px;
-        padding-top: 40px;
         border-radius: 40px;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-        .boton1 {
-            margin: 10px;
-        }
-        .boton2 {
-            margin: 10px;
-        }
-        }
-        
-    .agregar{
-        background-color: orange;
-        color: black;
-        height: 200px;
-        width: 400px;
-        margin-left: 110px;
-        padding-top: 80px;
-        text-align: center;
-        
+        margin-top: 100px;
+        box-shadow: rgba(0, 0, 0, 0.56) 70px 70px 0px 0px;
+            img {
+                margin-bottom: 45px;
+            }
         }
 
+    .box2 {
+        width: 400px;
+        height: auto;
+        background-color: $maincolor; 
+        text-align: center;
+        border-radius: 40px;
+        box-shadow: rgba(0, 0, 0, 0.56) 70px 70px 0px 0px;
+        margin-top: 100px;
 
-}
+
+        }
+        
+        .box3 {
+            width: 400px;
+            height: auto;
+            background-color: $maincolor; 
+            text-align: center;
+            border-radius: 40px;
+            box-shadow: rgba(0, 0, 0, 0.56) 70px 70px 0px 0px;
+            margin-top: 100px;
+            h2 {
+                margin-top: 160px;
+            }
+            h1 {
+                font-size: 100px;
+            }
+            }
+
+    }
 
 .slide-in-left{-webkit-animation:slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both}
  @-webkit-keyframes slide-in-left{0%{-webkit-transform:translateX(-1000px);transform:translateX(-1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}@keyframes slide-in-left{0%{-webkit-transform:translateX(-1000px);transform:translateX(-1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}

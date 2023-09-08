@@ -10,14 +10,12 @@ header {
   display: flex;
 }
 header .titulo {
-  background-color: orange;
-  padding-top: 10px;
   width: 100%;
+  color: white;
 }
 header .titulo h1 {
-  color: white;
   font-size: 30px;
-  padding: 20px;
+  margin: 10px;
 }
 header .menu {
   font-size: large;
@@ -46,29 +44,64 @@ body {
 }
 
 main {
-  margin-top: 20px;
   padding: 40px;
-}
-main .logear {
   display: flex;
-  gap: 50px;
+  gap: 500px;
 }
-main .logear .log {
-  text-align: center;
-  -webkit-text-decoration: solid;
-          text-decoration: solid;
-  color: black;
-  height: 100px;
-  background-color: orange;
-  width: 650PX;
-  margin-top: 20px;
-  margin-left: 20px;
-  padding-bottom: 10px;
+main .formulario {
+  background-color: rgba(102, 80, 180, 0.719);
+  padding: 10px;
   border-radius: 40px;
-  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  margin-top: 150px;
+  margin-left: 300px;
+  width: 300px;
+  height: 250px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.56) 70px 70px 0px 0px;
 }
-main .logear .log b {
-  font-size: large;
+main .formulario h2 {
+  margin: 20px;
+  color: white;
+}
+main .formulario input {
+  margin: 10px;
+}
+main .formulario button {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgba(80, 140, 180, 0.719);
+  font-size: 20px;
+  margin-top: 10px;
+}
+main .formulario2 {
+  background-color: rgba(102, 80, 180, 0.719);
+  padding: 10px;
+  border-radius: 40px;
+  margin-top: 50px;
+  width: 350px;
+  height: 500px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.56) 70px 70px 0px 0px;
+}
+main .formulario2 h2 {
+  color: white;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+main .formulario2 button {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgba(80, 140, 180, 0.719);
+  font-size: 20px;
+  margin-top: 0px;
+}
+main .formulario2 .condiciones {
+  display: inline-flex;
+  margin: 10px;
+  margin-top: 30px;
+}
+main .formulario2 .inputbox {
+  margin-bottom: 20px;
 }
 
 .slide-in-fwd-center {
@@ -90,11 +123,11 @@ main .logear .log b {
           text-decoration: solid;
   color: black;
   height: 100px;
-  background-color: orange;
+  background-color: rgba(102, 80, 180, 0.719);
   width: 400px;
   display: flex;
   padding-top: 20px;
-  margin-top: 300px;
+  margin-top: 100px;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 

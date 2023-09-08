@@ -1,18 +1,14 @@
 header {
-    
     display: flex;
 
     .titulo {
-        
-        background-color: orange;
-        padding-top: 10px;
         width: 100%;
+        color: white;
     }
 
     .titulo h1 {
-        color: white;
         font-size: 30px;
-        padding: 20px;
+        margin: 10px;
     }
 
     .menu {

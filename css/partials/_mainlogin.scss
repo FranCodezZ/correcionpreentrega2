@@ -1,31 +1,70 @@
 main {
-    margin-top: 20px;
     padding: 40px;
+    display: flex;
+    gap: 500px;
+    .formulario{
 
-    .logear {
-        display: flex;
-        gap: 50px;
-        
-        .log  {
-            text-align: center;
-            text-decoration:solid;
-            color: black;
-            height: 100px;
-            background-color: orange;
-            width: 650PX;
-            margin-top: 20px;
-            margin-left: 20px;
-            padding-bottom: 10px;
-            border-radius: 40px;
-            box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-    
-            b {
-                font-size: large;
-            }
-        
+        background-color: $maincolor;
+        padding: 10px; 
+        border-radius: 40px;
+        margin-top: 150px;
+        margin-left: 300px;
+        width: 300px;
+        height: 250px;
+        text-align: center ;
+        box-shadow: rgba(0, 0, 0, 0.56) 70px 70px 0px 0px;
+
+        h2 {margin: 20px;
+        color: white;}
+
+        input {margin: 10px;}
+
+        button {
+            padding: 5px;
+            border-radius: 10px;
+            background-color: $secondarycolor;
+            font-size: 20px;
+            margin-top: 10px;
+        }
+
+
+    }
+
+    .formulario2{
+
+        background-color: $maincolor;
+        padding: 10px;
+        border-radius: 40px;
+        margin-top: 50px;
+        width: 350px;
+        height: 500px;
+        text-align: center ;
+        box-shadow: rgba(0, 0, 0, 0.56) 70px 70px 0px 0px;
+
+        h2 {
+        color: white;
+        margin-bottom: 30px;
+        margin-top: 40px;}
+
+        button {
+            padding: 5px;
+            border-radius: 10px;
+            background-color: $secondarycolor;
+            font-size: 20px;
+            margin-top: 0px;
+        }
+
+        .condiciones {
+            display: inline-flex;
+            margin: 10px;
+            margin-top: 30px;
+        }
+
+        .inputbox {
+            margin-bottom: 20px;
         }
     
-    }
+}
 }
 .slide-in-fwd-center{-webkit-animation:slide-in-fwd-center .4s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-fwd-center .4s cubic-bezier(.25,.46,.45,.94) both}
-@-webkit-keyframes slide-in-fwd-center{0%{-webkit-transform:translateZ(-1400px);transform:translateZ(-1400px);opacity:0}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}@keyframes slide-in-fwd-center{0%{-webkit-transform:translateZ(-1400px);transform:translateZ(-1400px);opacity:0}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}
+ @-webkit-keyframes slide-in-fwd-center{0%{-webkit-transform:translateZ(-1400px);transform:translateZ(-1400px);opacity:0}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}@keyframes slide-in-fwd-center{0%{-webkit-transform:translateZ(-1400px);transform:translateZ(-1400px);opacity:0}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}

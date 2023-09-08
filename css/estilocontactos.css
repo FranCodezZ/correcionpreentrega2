@@ -10,14 +10,12 @@ header {
   display: flex;
 }
 header .titulo {
-  background-color: orange;
-  padding-top: 10px;
   width: 100%;
+  color: white;
 }
 header .titulo h1 {
-  color: white;
   font-size: 30px;
-  padding: 20px;
+  margin: 10px;
 }
 header .menu {
   font-size: large;
@@ -46,38 +44,78 @@ body {
 }
 
 main {
-  padding: 40px;
   display: inline-flex;
-  gap: 500px;
+  gap: 300px;
+  padding: 10p;
+}
+main .boton1 {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgba(80, 140, 180, 0.719);
+  font-size: 15px;
+}
+main .boton2 {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgba(80, 140, 180, 0.719);
+  font-size: 15px;
+  margin-left: 100px;
 }
 main .contactos {
-  background-color: orange;
-  background-size: 80px;
   text-align: center;
-  height: 400px;
-  width: 400px;
-  padding-top: 10px;
+  background-color: rgba(102, 80, 180, 0.719);
+  text-align: center;
+  height: 80px;
+  width: 700px;
+  padding: 10px;
   margin-left: 110px;
-  border-radius: 40px;
-  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-  margin-bottom: 300px;
+  margin-top: 200px;
+  box-shadow: rgba(0, 0, 0, 0.56) 70px 70px 0px 0px;
+  border-radius: 20px;
+}
+main .contactos select {
+  margin-top: 10px;
+  font-size: 20px;
 }
 main .contactoselect {
-  background-color: orange;
-  background-size: 80px;
+  background-color: rgba(102, 80, 180, 0.719);
+  margin-top: 100px;
   text-align: center;
-  height: 600px;
-  width: 400px;
+  height: 700px;
+  width: 300px;
   margin-left: 110px;
   border-radius: 40px;
-  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  box-shadow: rgba(0, 0, 0, 0.56) 70px 70px 0px 0px;
+}
+main .contactoselect img {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+main .boton3 {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgba(80, 140, 180, 0.719);
+  font-size: 15px;
+  margin-left: 50px;
+}
+main .boton4 {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgba(80, 140, 180, 0.719);
+  font-size: 15px;
 }
 main h3 {
+  text-align: left;
+  padding-top: 20px;
+  color: white;
   text-align: center;
-  padding: 10px;
 }
 main .descripcion {
   margin-top: 10px;
+}
+main .botones {
+  display: flex;
+  gap: 20px;
 }
 
 .slide-in-left {

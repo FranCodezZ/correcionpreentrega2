@@ -10,14 +10,12 @@ header {
   display: flex;
 }
 header .titulo {
-  background-color: orange;
-  padding-top: 10px;
   width: 100%;
+  color: white;
 }
 header .titulo h1 {
-  color: white;
   font-size: 30px;
-  padding: 20px;
+  margin: 10px;
 }
 header .menu {
   font-size: large;
@@ -46,58 +44,78 @@ body {
 }
 
 main {
-  padding: 40px;
-  display: inline-flex;
-  gap: 500px;
+  padding-bottom: 150px;
 }
-main .box {
-  background-color: orange;
-  background-size: 60px;
+
+.cabeza {
+  margin-top: 30px;
+  color: white;
   text-align: center;
-  height: 300px;
-  width: 400px;
-  padding-top: 30px;
-  margin-left: 110px;
-  border-radius: 40px;
-  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
-main .box h4 {
+
+.cajas {
+  display: flex;
+  gap: 100px;
+}
+.cajas h2 {
+  margin: 20px;
+}
+.cajas p {
+  margin-top: 30px;
+}
+.cajas .boton2 {
+  background-color: rgba(80, 140, 180, 0.719);
+  border-radius: 40px;
   margin-bottom: 20px;
-}
-main .box table {
-  background-color: white;
-  margin-left: 60px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  width: 280px;
-}
-main .box select {
-  margin-bottom: 10px;
-}
-main .institucion {
-  width: 400px;
-  height: 700px;
-  background-color: orange;
-  text-align: center;
-  margin-left: 110px;
-  padding-top: 40px;
-  border-radius: 40px;
-  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-}
-main .institucion .boton1 {
   margin: 10px;
-}
-main .institucion .boton2 {
-  margin: 10px;
-}
-main .agregar {
-  background-color: orange;
+  padding: 10px;
   color: black;
-  height: 200px;
-  width: 400px;
-  margin-left: 110px;
-  padding-top: 80px;
+}
+.cajas .box {
+  background-color: rgba(102, 80, 180, 0.719);
   text-align: center;
+  height: auto;
+  width: 400px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.56) 70px 70px 0px 0px;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.cajas .box1 {
+  width: 400px;
+  height: auto;
+  background-color: rgba(102, 80, 180, 0.719);
+  text-align: center;
+  border-radius: 40px;
+  margin-top: 100px;
+  box-shadow: rgba(0, 0, 0, 0.56) 70px 70px 0px 0px;
+}
+.cajas .box1 img {
+  margin-bottom: 45px;
+}
+.cajas .box2 {
+  width: 400px;
+  height: auto;
+  background-color: rgba(102, 80, 180, 0.719);
+  text-align: center;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.56) 70px 70px 0px 0px;
+  margin-top: 100px;
+}
+.cajas .box3 {
+  width: 400px;
+  height: auto;
+  background-color: rgba(102, 80, 180, 0.719);
+  text-align: center;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.56) 70px 70px 0px 0px;
+  margin-top: 100px;
+}
+.cajas .box3 h2 {
+  margin-top: 160px;
+}
+.cajas .box3 h1 {
+  font-size: 100px;
 }
 
 .slide-in-left {
