@@ -46,7 +46,6 @@ body {
 main {
   display: inline-flex;
   gap: 300px;
-  padding: 10p;
 }
 main .boton1 {
   padding: 5px;
@@ -81,7 +80,7 @@ main .contactoselect {
   background-color: rgba(102, 80, 180, 0.719);
   margin-top: 100px;
   text-align: center;
-  height: 700px;
+  height: 650px;
   width: 300px;
   margin-left: 110px;
   border-radius: 40px;

@@ -44,7 +44,7 @@ body {
 }
 
 main {
-  padding-bottom: 150px;
+  padding-bottom: 100px;
 }
 
 .cabeza {
@@ -61,7 +61,8 @@ main {
   margin: 20px;
 }
 .cajas p {
-  margin-top: 30px;
+  margin-top: 20px;
+  color: white;
 }
 .cajas .boton2 {
   background-color: rgba(80, 140, 180, 0.719);
@@ -78,8 +79,7 @@ main {
   width: 400px;
   border-radius: 40px;
   box-shadow: rgba(0, 0, 0, 0.56) 70px 70px 0px 0px;
-  margin-top: 100px;
-  margin-left: 100px;
+  margin-left: 40px;
 }
 .cajas .box1 {
   width: 400px;
@@ -87,7 +87,6 @@ main {
   background-color: rgba(102, 80, 180, 0.719);
   text-align: center;
   border-radius: 40px;
-  margin-top: 100px;
   box-shadow: rgba(0, 0, 0, 0.56) 70px 70px 0px 0px;
 }
 .cajas .box1 img {
@@ -100,7 +99,6 @@ main {
   text-align: center;
   border-radius: 40px;
   box-shadow: rgba(0, 0, 0, 0.56) 70px 70px 0px 0px;
-  margin-top: 100px;
 }
 .cajas .box3 {
   width: 400px;
@@ -109,7 +107,7 @@ main {
   text-align: center;
   border-radius: 40px;
   box-shadow: rgba(0, 0, 0, 0.56) 70px 70px 0px 0px;
-  margin-top: 100px;
+  margin-right: 40px;
 }
 .cajas .box3 h2 {
   margin-top: 160px;
