@@ -57,6 +57,11 @@ main {
   display: flex;
   gap: 100px;
 }
+@media screen and (max-width: 576px) {
+  .cajas {
+    flex-direction: column;
+  }
+}
 .cajas h2 {
   margin: 20px;
 }
@@ -92,6 +97,11 @@ main {
 .cajas .box1 img {
   margin-bottom: 45px;
 }
+@media screen and (max-width: 576px) {
+  .cajas .box1 {
+    display: none;
+  }
+}
 .cajas .box2 {
   width: 400px;
   height: auto;
@@ -99,6 +109,11 @@ main {
   text-align: center;
   border-radius: 40px;
   box-shadow: rgba(0, 0, 0, 0.56) 70px 70px 0px 0px;
+}
+@media screen and (max-width: 576px) {
+  .cajas .box2 {
+    display: none;
+  }
 }
 .cajas .box3 {
   width: 400px;
@@ -114,6 +129,11 @@ main {
 }
 .cajas .box3 h1 {
   font-size: 100px;
+}
+@media screen and (max-width: 576px) {
+  .cajas .box3 {
+    margin-left: 40px;
+  }
 }
 
 .slide-in-left {

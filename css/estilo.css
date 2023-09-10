@@ -72,6 +72,16 @@ main .descripcion .vermas {
   padding: 10px;
   color: black;
 }
+@media screen and (max-width: 576px) {
+  main .descripcion .vermas {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 992px) {
+  main .descripcion .vermas {
+    margin-top: 20px;
+  }
+}
 
 .img-derecha {
   width: auto;
@@ -100,6 +110,16 @@ main .descripcion .vermas {
 .img-derecha .imagen img {
   height: 300px;
   width: 300px;
+}
+@media screen and (max-width: 576px) {
+  .img-derecha .imagen {
+    display: none;
+  }
+}
+@media screen and (max-width: 992px) {
+  .img-derecha .imagen {
+    display: none;
+  }
 }
 
 .slide-in-left {

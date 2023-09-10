@@ -28,12 +28,21 @@ main {
             margin-top: 60px;
             padding: 10px;
             color: black;
-        
+            @include mobile {
+                margin-top: 20px;
+            }
+            @include tablet {
+                margin-top: 20px;
+            }
+
         }
+
+
     
         }}
 
     .img-derecha {
+
         width: auto;
         height: 500px;
         border-end-end-radius: 40px;
@@ -67,6 +76,15 @@ main {
                 height: 300px;
                 width: 300px;
             }
+
+        @include mobile {
+            display: none;
+        }
+
+        @include tablet {
+            display: none;
+        }
+
         }
 
     }   
