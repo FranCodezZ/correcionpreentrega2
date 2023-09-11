@@ -62,6 +62,18 @@ main .descripcion {
   box-shadow: rgba(0, 0, 0, 0.56) 70px 70px 0px 0px;
   margin-bottom: 100px;
 }
+@media screen and (max-width: 992px) {
+  main .descripcion {
+    margin-left: 20%;
+    height: 650px;
+  }
+}
+@media screen and (max-width: 576px) {
+  main .descripcion {
+    margin-left: 5%;
+    height: 600px;
+  }
+}
 main .descripcion .subtitulo {
   font-size: 20px;
 }

@@ -49,6 +49,16 @@ main {
   display: inline-flex;
   gap: 400px;
 }
+@media screen and (max-width: 576px) {
+  main {
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 992px) {
+  main {
+    display: inline-block;
+  }
+}
 main .boton2 {
   margin: 10px;
   padding: 5px;
@@ -67,6 +77,20 @@ main .box {
   border-radius: 40px;
   box-shadow: rgba(0, 0, 0, 0.56) 70px 70px 0px 0px;
 }
+@media screen and (max-width: 992px) {
+  main .box {
+    margin-left: 40%;
+    width: 300px;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 576px) {
+  main .box {
+    margin: 5%;
+    width: 300px;
+    justify-content: center;
+  }
+}
 main .box h4 {
   margin-top: 30px;
   margin-bottom: 50px;
@@ -75,7 +99,7 @@ main .box h4 {
 main .box .contenedor {
   color: white;
   font-size: larger;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 main .proyecto {
   width: 400px;
@@ -87,6 +111,18 @@ main .proyecto {
   border-radius: 40px;
   box-shadow: rgba(0, 0, 0, 0.56) 70px 70px 0px 0px;
 }
+@media screen and (max-width: 992px) {
+  main .proyecto {
+    margin-left: 40%;
+    width: 300px;
+  }
+}
+@media screen and (max-width: 576px) {
+  main .proyecto {
+    margin-left: 5%;
+    width: 300px;
+  }
+}
 main .proyecto h2 {
   margin-top: 20px;
 }
@@ -95,6 +131,16 @@ main .contenedor {
   grid-template-columns: 1fr;
   width: 300px;
   padding-left: 100px;
+}
+@media screen and (max-width: 992px) {
+  main .contenedor {
+    padding: 10%;
+  }
+}
+@media screen and (max-width: 576px) {
+  main .contenedor {
+    padding: 10%;
+  }
 }
 main .caja {
   border: 1px solid black;

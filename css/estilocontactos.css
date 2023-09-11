@@ -47,6 +47,16 @@ main {
   display: inline-flex;
   gap: 300px;
 }
+@media screen and (max-width: 576px) {
+  main {
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 992px) {
+  main {
+    display: inline-block;
+  }
+}
 main .boton1 {
   padding: 5px;
   border-radius: 10px;
@@ -59,6 +69,18 @@ main .boton2 {
   background-color: rgba(80, 140, 180, 0.719);
   font-size: 15px;
   margin-left: 100px;
+}
+@media screen and (max-width: 576px) {
+  main .boton2 {
+    margin-left: 0;
+    margin-top: 5%;
+  }
+}
+@media screen and (max-width: 992px) {
+  main .boton2 {
+    margin-left: 5%;
+    margin-top: 3%;
+  }
 }
 main .contactos {
   text-align: center;
@@ -76,6 +98,18 @@ main .contactos select {
   margin-top: 10px;
   font-size: 20px;
 }
+@media screen and (max-width: 576px) {
+  main .contactos {
+    margin-left: 5%;
+    width: 400px;
+    height: 150px;
+  }
+}
+@media screen and (max-width: 992px) {
+  main .contactos {
+    height: 100px;
+  }
+}
 main .contactoselect {
   background-color: rgba(102, 80, 180, 0.719);
   margin-top: 100px;
@@ -89,6 +123,16 @@ main .contactoselect {
 main .contactoselect img {
   margin-top: 20px;
   margin-bottom: 40px;
+}
+@media screen and (max-width: 576px) {
+  main .contactoselect {
+    margin-left: 18%;
+  }
+}
+@media screen and (max-width: 992px) {
+  main .contactoselect {
+    margin-left: 40%;
+  }
 }
 main .boton3 {
   padding: 5px;

@@ -1,7 +1,20 @@
 main {
     padding: 40px;
-    display: flex;
+    display: inline-flex;
     gap: 500px;
+    justify-content: center;
+    @include mobile {
+        flex-direction: column;
+        gap: 20px;
+        padding: 5%;
+    }
+    @include tablet {
+        flex-direction: column;
+        gap: 20px;
+        padding: 5%;
+    }
+
+
     .formulario{
 
         background-color: $maincolor;
@@ -13,6 +26,16 @@ main {
         height: 250px;
         text-align: center ;
         box-shadow: rgba(0, 0, 0, 0.56) 70px 70px 0px 0px;
+
+
+        @include tablet {
+            margin-left: 50%;
+
+        }
+        @include mobile {
+            margin-left: 12%;
+        }
+        
 
         h2 {margin: 20px;
         color: white;}
@@ -41,6 +64,13 @@ main {
         text-align: center ;
         box-shadow: rgba(0, 0, 0, 0.56) 70px 70px 0px 0px;
 
+        @include tablet {
+            margin-left: 45%;
+
+        }
+        @include mobile {
+            margin-left: 5%;
+        }
         h2 {
         color: white;
         margin-bottom: 30px;
