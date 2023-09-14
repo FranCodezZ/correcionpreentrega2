@@ -1,9 +1,11 @@
 header {
     display: flex;
+    width: 100%;
 
     .titulo {
         width: 100%;
         color: white;
+        
     }
 
     .titulo h1 {
@@ -13,7 +15,10 @@ header {
 
     .menu {
         font-size: large;
+        width: 100%;
     }
+
+
 }
 
 .swing-in-top-fwd{-webkit-animation:swing-in-top-fwd .5s cubic-bezier(.175,.885,.32,1.275) both;animation:swing-in-top-fwd .5s cubic-bezier(.175,.885,.32,1.275) both}

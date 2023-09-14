@@ -1,18 +1,19 @@
 main {
-    padding: 40px;
     display: inline-flex;
-    gap: 500px;
-    justify-content: center;
-    @include mobile {
+    gap: 50%;
+    padding: 5%;
+
+        @include tablet {
         flex-direction: column;
         gap: 20px;
         padding: 5%;
     }
-    @include tablet {
+        @include mobile {
         flex-direction: column;
         gap: 20px;
         padding: 5%;
     }
+
 
 
     .formulario{
@@ -20,8 +21,8 @@ main {
         background-color: $maincolor;
         padding: 10px; 
         border-radius: 40px;
-        margin-top: 150px;
-        margin-left: 300px;
+        margin-top: 10%;
+        margin-left: 30%;
         width: 300px;
         height: 250px;
         text-align: center ;
@@ -29,11 +30,11 @@ main {
 
 
         @include tablet {
-            margin-left: 50%;
+            margin-left: 58%;
 
         }
         @include mobile {
-            margin-left: 12%;
+            margin-left: 15%;
         }
         
 
@@ -54,22 +55,24 @@ main {
     }
 
     .formulario2{
-
+        padding: 20px;
         background-color: $maincolor;
-        padding: 10px;
         border-radius: 40px;
-        margin-top: 50px;
-        width: 350px;
-        height: 500px;
+        margin-top: 30px;
+        margin-right: 100px;
+        width: 100%;
+        height: 80%;
         text-align: center ;
         box-shadow: rgba(0, 0, 0, 0.56) 70px 70px 0px 0px;
 
         @include tablet {
-            margin-left: 45%;
-
+            margin-left: 50%;
+            width: 100%;
+            margin-right: 50%;
         }
         @include mobile {
-            margin-left: 5%;
+            margin-left: 10%;
+            width: 100%;
         }
         h2 {
         color: white;
@@ -81,13 +84,13 @@ main {
             border-radius: 10px;
             background-color: $secondarycolor;
             font-size: 20px;
-            margin-top: 0px;
+            margin-bottom: 20px;
         }
 
         .condiciones {
             display: inline-flex;
-            margin: 10px;
-            margin-top: 30px;
+            margin-top: 20px;
+            padding: 10px;
         }
 
         .inputbox {

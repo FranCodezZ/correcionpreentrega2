@@ -8,6 +8,7 @@
 
 header {
   display: flex;
+  width: 100%;
 }
 header .titulo {
   width: 100%;
@@ -19,6 +20,7 @@ header .titulo h1 {
 }
 header .menu {
   font-size: large;
+  width: 100%;
 }
 
 .swing-in-top-fwd {
@@ -44,17 +46,15 @@ body {
 }
 
 main {
-  padding: 40px;
-  padding-top: 100px;
   display: inline-flex;
-  gap: 400px;
+  gap: 40%;
 }
 @media screen and (max-width: 576px) {
   main {
     display: inline-block;
   }
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1000px) {
   main {
     display: inline-block;
   }
@@ -70,30 +70,32 @@ main .boton2 {
 main .box {
   background-color: rgba(102, 80, 180, 0.719);
   text-align: center;
-  height: 500px;
-  width: 400px;
-  padding-top: 20px;
-  margin-left: 300px;
+  height: auto;
+  width: 40%;
+  padding-top: 10px;
+  margin-left: 10%;
   border-radius: 40px;
+  margin-top: 10%;
   box-shadow: rgba(0, 0, 0, 0.56) 70px 70px 0px 0px;
+  text-align: center;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1000px) {
   main .box {
-    margin-left: 40%;
-    width: 300px;
+    margin-left: 80%;
+    width: 100%;
     justify-content: center;
   }
 }
 @media screen and (max-width: 576px) {
   main .box {
-    margin: 5%;
-    width: 300px;
+    margin-left: 20%;
+    width: 100%;
     justify-content: center;
   }
 }
 main .box h4 {
-  margin-top: 30px;
-  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   color: white;
 }
 main .box .contenedor {
@@ -102,24 +104,23 @@ main .box .contenedor {
   margin-bottom: 10px;
 }
 main .proyecto {
-  width: 400px;
-  height: 450px;
+  width: 50%;
+  height: auto;
   background-color: rgba(102, 80, 180, 0.719);
   text-align: center;
-  margin-left: 110px;
-  margin-top: 50px;
+  margin-top: 10%;
   border-radius: 40px;
   box-shadow: rgba(0, 0, 0, 0.56) 70px 70px 0px 0px;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1000px) {
   main .proyecto {
-    margin-left: 40%;
+    margin-left: 80%;
     width: 300px;
   }
 }
 @media screen and (max-width: 576px) {
   main .proyecto {
-    margin-left: 5%;
+    margin-left: 20%;
     width: 300px;
   }
 }
@@ -129,10 +130,9 @@ main .proyecto h2 {
 main .contenedor {
   display: grid;
   grid-template-columns: 1fr;
-  width: 300px;
-  padding-left: 100px;
+  width: 100%;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1000px) {
   main .contenedor {
     padding: 10%;
   }

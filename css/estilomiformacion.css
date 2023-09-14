@@ -8,6 +8,7 @@
 
 header {
   display: flex;
+  width: 100%;
 }
 header .titulo {
   width: 100%;
@@ -19,6 +20,7 @@ header .titulo h1 {
 }
 header .menu {
   font-size: large;
+  width: 100%;
 }
 
 .swing-in-top-fwd {
@@ -43,10 +45,6 @@ body {
   background-attachment: fixed;
 }
 
-main {
-  padding-bottom: 100px;
-}
-
 .cabeza {
   margin-top: 30px;
   color: white;
@@ -54,15 +52,16 @@ main {
 }
 
 .cajas {
+  padding: 5%;
   display: flex;
-  gap: 100px;
+  gap: 5%;
 }
 @media screen and (max-width: 576px) {
   .cajas {
     flex-direction: column;
   }
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1000px) {
   .cajas {
     flex-direction: column;
   }
@@ -89,11 +88,10 @@ main {
   width: 400px;
   border-radius: 40px;
   box-shadow: rgba(0, 0, 0, 0.56) 70px 70px 0px 0px;
-  margin-left: 40px;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1000px) {
   .cajas .box {
-    margin-left: 30%;
+    margin-left: 15%;
   }
 }
 @media screen and (max-width: 576px) {
@@ -112,7 +110,7 @@ main {
 .cajas .box1 img {
   margin-bottom: 45px;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1000px) {
   .cajas .box1 {
     display: none;
   }
@@ -135,7 +133,7 @@ main {
     display: none;
   }
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1000px) {
   .cajas .box2 {
     display: none;
   }
@@ -147,7 +145,7 @@ main {
   text-align: center;
   border-radius: 40px;
   box-shadow: rgba(0, 0, 0, 0.56) 70px 70px 0px 0px;
-  margin-right: 40px;
+  margin-right: 2%;
 }
 .cajas .box3 h2 {
   margin-top: 100px;
@@ -155,14 +153,16 @@ main {
 .cajas .box3 h1 {
   font-size: 100px;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1000px) {
   .cajas .box3 {
-    margin-left: 30%;
+    margin-left: 15%;
+    margin-top: 10%;
   }
 }
 @media screen and (max-width: 576px) {
   .cajas .box3 {
     margin-left: 5%;
+    margin-top: 10%;
   }
 }
 

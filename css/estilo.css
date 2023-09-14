@@ -8,6 +8,7 @@
 
 header {
   display: flex;
+  width: 100%;
 }
 header .titulo {
   width: 100%;
@@ -19,6 +20,7 @@ header .titulo h1 {
 }
 header .menu {
   font-size: large;
+  width: 100%;
 }
 
 .swing-in-top-fwd {
@@ -45,11 +47,11 @@ body {
 
 main {
   display: inline-flex;
-  gap: 800px;
+  gap: 30%;
+  padding-right: 40%;
 }
 main .descripcion {
-  width: 350px;
-  height: 550px;
+  width: 50%;
   text-align: center;
   -webkit-text-decoration: solid;
           text-decoration: solid;
@@ -57,21 +59,22 @@ main .descripcion {
   padding: 60px;
   border-radius: 40px;
   background-color: rgba(102, 80, 180, 0.719);
-  margin-left: 100px;
+  margin-left: 10%;
   margin-top: 100px;
+  margin-right: 20%;
   box-shadow: rgba(0, 0, 0, 0.56) 70px 70px 0px 0px;
   margin-bottom: 100px;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1000px) {
   main .descripcion {
-    margin-left: 20%;
-    height: 650px;
+    margin-left: 50%;
+    width: 100%;
   }
 }
 @media screen and (max-width: 576px) {
   main .descripcion {
-    margin-left: 5%;
-    height: 600px;
+    margin-left: 30%;
+    width: 100%;
   }
 }
 main .descripcion .subtitulo {
@@ -89,7 +92,7 @@ main .descripcion .vermas {
     margin-top: 20px;
   }
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1000px) {
   main .descripcion .vermas {
     margin-top: 20px;
   }
@@ -97,11 +100,16 @@ main .descripcion .vermas {
 
 .img-derecha {
   width: auto;
-  height: 500px;
+  height: 550px;
   border-end-end-radius: 40px;
   border-end-start-radius: 40px;
   background-color: rgba(102, 80, 180, 0.719);
   box-shadow: rgba(0, 0, 0, 0.56) 70px 70px 0px 0px;
+}
+@media screen and (max-width: 1000px) {
+  .img-derecha {
+    display: none;
+  }
 }
 .img-derecha .tituloimg {
   font-size: 50px;
@@ -122,16 +130,6 @@ main .descripcion .vermas {
 .img-derecha .imagen img {
   height: 300px;
   width: 300px;
-}
-@media screen and (max-width: 576px) {
-  .img-derecha .imagen {
-    display: none;
-  }
-}
-@media screen and (max-width: 992px) {
-  .img-derecha .imagen {
-    display: none;
-  }
 }
 
 .slide-in-left {

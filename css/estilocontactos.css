@@ -8,6 +8,7 @@
 
 header {
   display: flex;
+  width: 100%;
 }
 header .titulo {
   width: 100%;
@@ -19,6 +20,7 @@ header .titulo h1 {
 }
 header .menu {
   font-size: large;
+  width: 100%;
 }
 
 .swing-in-top-fwd {
@@ -45,14 +47,14 @@ body {
 
 main {
   display: inline-flex;
-  gap: 300px;
+  gap: 50%;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 1000px) {
   main {
     display: inline-block;
   }
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 576px) {
   main {
     display: inline-block;
   }
@@ -62,13 +64,15 @@ main .boton1 {
   border-radius: 10px;
   background-color: rgba(80, 140, 180, 0.719);
   font-size: 15px;
+  margin-top: 5%;
 }
 main .boton2 {
   padding: 5px;
   border-radius: 10px;
   background-color: rgba(80, 140, 180, 0.719);
   font-size: 15px;
-  margin-left: 100px;
+  margin-top: 5%;
+  margin-left: 2%;
 }
 @media screen and (max-width: 576px) {
   main .boton2 {
@@ -76,7 +80,7 @@ main .boton2 {
     margin-top: 5%;
   }
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1000px) {
   main .boton2 {
     margin-left: 5%;
     margin-top: 3%;
@@ -86,11 +90,11 @@ main .contactos {
   text-align: center;
   background-color: rgba(102, 80, 180, 0.719);
   text-align: center;
-  height: 80px;
+  height: 50%;
   width: 700px;
   padding: 10px;
-  margin-left: 110px;
-  margin-top: 200px;
+  margin-left: 20%;
+  margin-top: 10%;
   box-shadow: rgba(0, 0, 0, 0.56) 70px 70px 0px 0px;
   border-radius: 20px;
 }
@@ -98,25 +102,25 @@ main .contactos select {
   margin-top: 10px;
   font-size: 20px;
 }
-@media screen and (max-width: 576px) {
-  main .contactos {
-    margin-left: 5%;
-    width: 400px;
-    height: 150px;
-  }
-}
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1000px) {
   main .contactos {
     height: 100px;
   }
 }
+@media screen and (max-width: 576px) {
+  main .contactos {
+    margin-left: 5%;
+    width: 90%;
+    height: 30%;
+  }
+}
 main .contactoselect {
   background-color: rgba(102, 80, 180, 0.719);
-  margin-top: 100px;
+  margin-top: 5%;
+  margin-right: 20%;
   text-align: center;
-  height: 650px;
-  width: 300px;
-  margin-left: 110px;
+  height: auto;
+  width: 80%;
   border-radius: 40px;
   box-shadow: rgba(0, 0, 0, 0.56) 70px 70px 0px 0px;
 }
@@ -124,14 +128,16 @@ main .contactoselect img {
   margin-top: 20px;
   margin-bottom: 40px;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 1000px) {
   main .contactoselect {
-    margin-left: 18%;
+    margin-left: 45%;
+    width: 50%;
   }
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 576px) {
   main .contactoselect {
-    margin-left: 40%;
+    margin-left: 10%;
+    width: 80%;
   }
 }
 main .boton3 {
@@ -139,13 +145,29 @@ main .boton3 {
   border-radius: 10px;
   background-color: rgba(80, 140, 180, 0.719);
   font-size: 15px;
-  margin-left: 50px;
+  margin-left: 7%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+@media screen and (max-width: 1000px) {
+  main .boton3 {
+    margin-left: 15%;
+    margin-bottom: 5%;
+  }
 }
 main .boton4 {
   padding: 5px;
   border-radius: 10px;
   background-color: rgba(80, 140, 180, 0.719);
   font-size: 15px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+@media screen and (max-width: 1000px) {
+  main .boton4 {
+    margin-left: 10%;
+    margin-bottom: 5%;
+  }
 }
 main h3 {
   text-align: left;
