@@ -47,8 +47,9 @@ body {
 
 main {
   display: inline-flex;
-  gap: 50%;
+  gap: 60%;
   padding: 5%;
+  width: 50%;
 }
 @media screen and (max-width: 1000px) {
   main {
@@ -69,7 +70,7 @@ main .formulario {
   padding: 10px;
   border-radius: 40px;
   margin-top: 10%;
-  margin-left: 30%;
+  margin-left: 40%;
   width: 300px;
   height: 250px;
   text-align: center;
@@ -77,12 +78,12 @@ main .formulario {
 }
 @media screen and (max-width: 1000px) {
   main .formulario {
-    margin-left: 58%;
+    margin-left: 72%;
   }
 }
 @media screen and (max-width: 576px) {
   main .formulario {
-    margin-left: 15%;
+    margin-left: 20%;
   }
 }
 main .formulario h2 {
@@ -103,24 +104,20 @@ main .formulario2 {
   padding: 20px;
   background-color: rgba(102, 80, 180, 0.719);
   border-radius: 40px;
-  margin-top: 30px;
-  margin-right: 100px;
-  width: 100%;
-  height: 80%;
+  width: 300px;
+  height: 100%;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.56) 70px 70px 0px 0px;
 }
 @media screen and (max-width: 1000px) {
   main .formulario2 {
-    margin-left: 50%;
-    width: 100%;
-    margin-right: 50%;
+    margin-left: 72%;
+    margin-top: 30%;
   }
 }
 @media screen and (max-width: 576px) {
   main .formulario2 {
-    margin-left: 10%;
-    width: 100%;
+    margin-left: 20%;
   }
 }
 main .formulario2 h2 {

@@ -48,6 +48,7 @@ body {
 main {
   display: inline-flex;
   gap: 40%;
+  padding-right: 5%;
 }
 @media screen and (max-width: 576px) {
   main {
@@ -81,7 +82,7 @@ main .box {
 }
 @media screen and (max-width: 1000px) {
   main .box {
-    margin-left: 80%;
+    margin-left: 100%;
     width: 100%;
     justify-content: center;
   }
@@ -114,7 +115,7 @@ main .proyecto {
 }
 @media screen and (max-width: 1000px) {
   main .proyecto {
-    margin-left: 80%;
+    margin-left: 100%;
     width: 300px;
   }
 }
